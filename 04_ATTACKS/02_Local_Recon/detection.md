@@ -27,9 +27,9 @@ Wazuh détecte les commandes de reconnaissance sans règle custom.
 
 ### Alertes Wazuh
 
-![[recon_detection_wazuh.png]]
+![](../../screenshots/recon_detection_wazuh.png)
 
-![[recon_detection_detail.png]]
+![](../../screenshots/recon_detection_detail.png)
 
 ### Analyse
 
