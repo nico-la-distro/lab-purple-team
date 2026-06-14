@@ -46,5 +46,5 @@ Computer Configuration → Windows Settings → Security Settings → Advanced A
 
 ### Alertes Wazuh
 
-![[wazuh_asrep_detection.png]]
+![](../../screenshots/wazuh_asrep_detection.png)
 
