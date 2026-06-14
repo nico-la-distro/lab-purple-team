@@ -45,4 +45,4 @@
 
 ### Alertes Wazuh
 
-![[wazuh_kerberoasting_detection.png]]
+![](../../screenshots/wazuh_kerberoasting_detection.png)
