@@ -51,4 +51,4 @@ Ces signaux nécessitent une inspection du trafic réseau Kerberos (Zeek, Snort)
 
 ### Alertes Wazuh
 
-![[wazuh_golden_ticket_detection.png]]
+![](../../screenshots/wazuh_golden_ticket_detection.png)
