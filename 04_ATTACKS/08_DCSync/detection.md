@@ -41,4 +41,4 @@ Computer Configuration → Windows Settings → Security Settings → Advanced A
 
 ### Alertes Wazuh
 
-![[wazuh_dcsync_detection.png]]
+![](../../screenshots/wazuh_dcsync_detection.png)
