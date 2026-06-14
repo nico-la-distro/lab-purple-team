@@ -29,7 +29,7 @@ set SESSION 1
 run
 ```
 
-![[local_exploit_suggester.png]]
+![](../../screenshots/local_exploit_suggester.png)
 
 #### 2. Bypass UAC via fodhelper.exe
 
@@ -49,7 +49,7 @@ getsystem
 getuid
 ```
 
-![[system_elevation.png]]
+![](../../screenshots/system_elevation.png)
 
 ### Résultat
 
