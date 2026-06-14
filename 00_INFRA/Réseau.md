@@ -1,6 +1,6 @@
 ## Schéma Réseau
 
-![](screenshots/infra_lab_purple_team.png)
+![](../screenshots/infra_lab_purple_team.png)
 
 ---
 ## Table d'adressage IP
