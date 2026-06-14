@@ -27,5 +27,5 @@
 
 ### Alertes Wazuh
 
-![[wazuh_lsass_detection.png]]
+![](../../screenshots/wazuh_lsass_detection.png)
 
