@@ -47,5 +47,5 @@ Computer Configuration → Windows Settings → Security Settings → Advanced A
 
 ### Alertes Wazuh
 
-![[persistence_detection_wazuh.png]]
+![](../../screenshots/persistence_detection_wazuh.png)
 
