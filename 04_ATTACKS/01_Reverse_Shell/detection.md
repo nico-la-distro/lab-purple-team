@@ -64,7 +64,7 @@
 
 ### Alertes Wazuh
 
-![](../../../screenshots/alerts_wazuh_custom.png)
+![](../../screenshots/alerts_wazuh_custom.png)
 
 > Note : le screenshot affiche T1059. Les techniques correctes pour ce vecteur sont T1571 & T1095 
 ### Champs clés de l'event (Sysmon Event ID 3)
