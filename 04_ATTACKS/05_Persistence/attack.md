@@ -74,6 +74,6 @@ run
 
 Après redémarrage de WS01 :
 
-![[persistence_session.png]]
+![](../../screenshots/persistence_session.png)
 
 Session Meterpreter ouverte automatiquement sur le port 4445 au login d'alice.
