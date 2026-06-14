@@ -43,7 +43,7 @@ impacket-ticketer -nthash f51548c3f921c9480cec9df614d313d9 -domain-sid S-1-5-21-
 | `-groups 512` | Domain Admins |
 | `Administrator` | Compte usurpé |
 
-![](../../sceenshots/golden_ticket_forge.png)
+![](../../screenshots/golden_ticket_forge.png)
 
 #### 3. Activer le ticket
 
@@ -63,7 +63,7 @@ impacket-smbclient -k -no-pass lab.local/Administrator@DC01.lab.local
 | `-no-pass` | Pas de mot de passe, le ticket suffit |
 | `lab.local/Administrator@DC01.lab.local` | Domaine, compte usurpé, cible |
 
-![](../../sceenshots/golden_ticket_access.png)
+![](../../screenshots/golden_ticket_access.png)
 
 ### Résultat
 
