@@ -29,7 +29,7 @@ sysinfo
 getuid
 ```
 
-![[recon_basics.png]]
+![](../../screenshots/recon_basics.png)
 
 Puis depuis un shell Windows :
 
@@ -41,21 +41,21 @@ shell
 net user alice /domain
 ```
 
-![[net_user_alice_domain.png]]
+![](../../screenshots/net_user_alice_domain.png)
 
 
 ```cmd
 net group "Domain Admins" /domain
 ```
 
-![[net_group_domain_admins_domain.png]]
+![](../../screenshots/net_group_domain_admins_domain.png)
 
 
 ```cmd
 net localgroup Administrators
 ```
 
-![[net_localgroup_administrators.png]]
+![](../../screenshots/net_localgroup_administrators.png)
 
 
 ```cmd
