@@ -37,7 +37,8 @@ impacket-GetUserSPNs lab.local/alice -dc-ip 192.168.10.100 -request -hashes :d08
 | `-request`                                  | Demande et retourne les hashes TGS            |
 
 
-![[kerberoasting_hash_capture.png]]
+![](../../screenshots/kerberoasting_hash_capture.png)
+
 #### 2. Cracker le hash offline
 
 ```bash
@@ -48,7 +49,8 @@ john /tmp/svc-web_hash.txt --wordlist=/usr/share/wordlists/rockyou.txt --format=
 | ------------------ | ---------------------------- |
 | `--format=krb5tgs` | Format TGS Kerberos etype 23 |
 
-![[kerberoasting_cracked.png]]
+![](../../screenshots/kerberoasting_cracked.png)
+
 ### Résultat
 
 | Compte | Mot de passe |
