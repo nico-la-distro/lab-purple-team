@@ -1,6 +1,5 @@
 # Lab Purple Team - Active Directory
 
-![[wazuh_security_events.png]]
 ![](screenshots/wazuh_security_events.png)
 
 Lab de cybersécurité offensif et défensif construit pour pratiquer et documenter
