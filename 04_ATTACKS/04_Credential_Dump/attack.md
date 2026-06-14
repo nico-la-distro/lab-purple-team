@@ -40,7 +40,7 @@ kiwi_cmd sekurlsa::logonpasswords
 
 ### Résultat
 
-![[kiwi_dump_ntlm_hash.png]]
+![](../../screenshots/kiwi_dump_ntlm_hash.png)
 
 | Compte | Domaine | NTLM                             |
 | ------ | ------- | -------------------------------- |
