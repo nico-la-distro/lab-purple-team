@@ -45,4 +45,4 @@ Le module opère en deux temps :
 
 ### Alertes Wazuh
 
-![[wazuh_priv_esc_detection.png]]
+![](../../screenshots/wazuh_priv_esc_detection.png)
