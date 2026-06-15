@@ -8,7 +8,6 @@
 | Règles custom Wazuh | Détection de la connexion suspecte |
 
 > Sans règle custom, Wazuh ingère les events Sysmon mais ne génère aucune alerte.
-> La règle parente `61605` (Sysmon Event ID 3) doit être héritée par nos règles custom.
 
 ### Règle 100002 Détection par IOC (port fixe)
 
