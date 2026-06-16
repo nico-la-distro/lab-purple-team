@@ -10,6 +10,8 @@ via Wazuh.
 
 ## Infrastructure
 
+![](../screenshots/infra_lab_purple_team.png)
+
 | Machine | Rôle                   | IP              | OS                  |
 | ------- | ---------------------- | --------------- | ------------------- |
 | DC01    | Active Directory / DNS | 192.168.10.100  | Windows Server 2022 |
