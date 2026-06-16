@@ -10,7 +10,7 @@ via Wazuh.
 
 ## Infrastructure
 
-![](../screenshots/infra_lab_purple_team.png)
+![](/screenshots/infra_lab_purple_team.png)
 
 | Machine | Rôle                   | IP              | OS                  |
 | ------- | ---------------------- | --------------- | ------------------- |
