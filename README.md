@@ -76,9 +76,6 @@ mais ne mesure pas certains indicateurs qu'un SOC en production suivrait :
 | Couverture de log        | Toutes les sources pertinentes (ex: logs réseau, EDR) ne sont pas centralisées dans ce lab |
 | Volume / bruit en conditions réelles | Le lab génère peu de trafic légitime, donc les règles n'ont pas été testées contre du bruit de fond |
 
-Prochaine itération prévue : rejouer les 9 scénarios avec Atomic Red Team pour mesurer 
-le taux de détection et de faux positifs de façon quantitative, plutôt que qualitative.
-
 ---
 
 ## Structure du projet
