@@ -64,6 +64,23 @@ Chaque scénario est documenté en trois parties : `attack.md` / `detection.md` 
 
 ---
 
+## Limites & axes d'amélioration
+
+Ce lab valide la détection de chaque technique de façon qualitative (alerte déclenchée ou non), 
+mais ne mesure pas certains indicateurs qu'un SOC en production suivrait :
+
+| KPI non mesuré          | Pourquoi c'est important                                          |
+|--------------------------|---------------------------------------------------------------------|
+| Taux de faux positifs    | Une règle qui détecte mais génère trop de bruit n'est pas exploitable en prod |
+| MTTD (Mean Time To Detect) | Délai entre l'exécution de la technique et le déclenchement de l'alerte |
+| Couverture de log        | Toutes les sources pertinentes (ex: logs réseau, EDR) ne sont pas centralisées dans ce lab |
+| Volume / bruit en conditions réelles | Le lab génère peu de trafic légitime, donc les règles n'ont pas été testées contre du bruit de fond |
+
+Prochaine itération prévue : rejouer les 9 scénarios avec Atomic Red Team pour mesurer 
+le taux de détection et de faux positifs de façon quantitative, plutôt que qualitative.
+
+---
+
 ## Structure du projet
 
 ```
