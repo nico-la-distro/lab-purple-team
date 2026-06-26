@@ -2,7 +2,7 @@
 
 ![](screenshots/wazuh_security_events.png)
 
-Lab de cybersécurité offensif et défensif construit pour pratiquer et documenter
+Lab offensif et défensif construit pour pratiquer et documenter
 des techniques d'attaque sur un environnement Active Directory, avec détection
 via Wazuh.
 
