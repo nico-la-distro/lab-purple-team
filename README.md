@@ -28,14 +28,14 @@ Réseau : Host-Only VMware `192.168.10.0/24` - Domaine : `lab.local`
 | #   | Scénario             | Technique MITRE     | Tactique             |
 | --- | -------------------- | ------------------- | -------------------- |
 | 01  | [Reverse Shell](04_ATTACKS/01_Reverse_Shell/attack.md)        | T1204.002           | Execution            |
-| 02  | Local Recon          | T1082, T1016, T1069 | Discovery            |
-| 03  | Privilege Escalation | T1548.002           | Privilege Escalation |
-| 04  | Credential Dump      | T1003.001           | Credential Access    |
-| 05  | Persistence          | T1053.005           | Persistence          |
-| 06  | AS-REP Roasting      | T1558.004           | Credential Access    |
-| 07  | Kerberoasting        | T1558.003           | Credential Access    |
-| 08  | DCSync               | T1003.006           | Credential Access    |
-| 09  | Golden Ticket        | T1558.001           | Persistence          |
+| 02  | [Local Recon](04_ATTACKS/02_Local_Recon/attack.md)          | T1082, T1016, T1069 | Discovery            |
+| 03  | [Privilege Escalation](04_ATTACKS/03_Privilege_Escalation/attack.md) | T1548.002           | Privilege Escalation |
+| 04  | [Credential Dump](04_ATTACKS/04_Credential_Dump/attack.md)      | T1003.001           | Credential Access    |
+| 05  | [Persistence](04_ATTACKS/05_Persistence/attack.md)          | T1053.005           | Persistence          |
+| 06  | [AS-REP Roasting](04_ATTACKS/06_AS-REP_Roasting/attack.md)      | T1558.004           | Credential Access    |
+| 07  | [Kerberoasting](04_ATTACKS/07_Kerberoasting/attack.md)        | T1558.003           | Credential Access    |
+| 08  | [DCSync](04_ATTACKS/08_DCSync/attack.md)               | T1003.006           | Credential Access    |
+| 09  | [Golden Ticket](04_ATTACKS/09_Golden_Ticket/attack.md)        | T1558.001           | Persistence          |
 
 Chaque scénario est documenté en trois parties : `attack.md` / `detection.md` / `patch.md`
 
