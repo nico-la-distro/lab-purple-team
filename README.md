@@ -14,10 +14,10 @@ via Wazuh.
 
 | Machine | Rôle                   | IP              | OS                  |
 | ------- | ---------------------- | --------------- | ------------------- |
-| DC01    | Active Directory / DNS | 192.168.10.100  | Windows Server 2022 |
-| WS01    | Client domaine         | 192.168.10.101  | Windows 10 Pro      |
-| Kali    | Attaquant              | 192.168.10.200  | Kali Linux 2026.2   |
-| Wazuh   | SIEM                   | IP publique VPS | Ubuntu 22.04        |
+| [DC01](00_INFRA/MACHINES/DC01.md)    | Active Directory / DNS | 192.168.10.100  | Windows Server 2022 |
+| [WS01](00_INFRA/MACHINES/WS01.md)    | Client domaine         | 192.168.10.101  | Windows 10 Pro      |
+| [Kali](00_INFRA/MACHINES/Kali.md)    | Attaquant              | 192.168.10.200  | Kali Linux 2026.2   |
+| [Wazuh](00_INFRA/MACHINES/VPS_(Wazuh).md)   | SIEM                   | IP publique VPS | Ubuntu 22.04        |
 
 Réseau : Host-Only VMware `192.168.10.0/24` - Domaine : `lab.local`
 
